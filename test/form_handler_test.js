@@ -1,7 +1,7 @@
 "use strict";
 
 var expect = require('chai').expect;
-var FormHandler = require('../lib/form_handler');
+var FormHandler = require('../lib/form_handler').FormHandler;
 
 describe('FormHandler', () => {
     describe('parseTSV', ()=> {
