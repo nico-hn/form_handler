@@ -16,7 +16,7 @@ describe('FormHandler', () => {
     });
 
     describe('readTSVFile', () => {
-	it('expects to read a TSV file and returns a nested array', () => {
+	it('expects to read a TSV file and return a nested array', () => {
 	    let tsv = FormHandler.readTSVFile('./test_data/example.tsv');
 	    expect(tsv).to.eql([
 		['1', 'first', '1st'],
