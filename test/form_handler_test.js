@@ -14,5 +14,16 @@ describe('FormHandler', () => {
 	    ]);
 	});
     });
+
+    describe('readTSVFile', () => {
+	it('expects to read a TSV file and returns a nested array', () => {
+	    let tsv = FormHandler.readTSVFile('./test_data/example.tsv');
+	    expect(tsv).to.eql([
+		['1', 'first', '1st'],
+		['2', 'second', '2nd'],
+		['3', 'third', '3rd']
+	    ]);
+	});
+    });
 });
 
