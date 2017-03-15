@@ -1,0 +1,20 @@
+{
+  "name": "js_exercise",
+  "version": "1.0.0",
+  "description": "just for exercise",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "HASHIMOTO, Naoki",
+  "license": "MIT"
+}
